@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=aSize
+comment0.target=Rock(int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Rock.\r\n\ @param\ aSize\ recibe\ una\ medida\ de\ la\ roca\ para\ despues\ escalarla\r\n\ a\ esa\ medida.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Roca\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkIsTouching()
+comment2.text=\r\n\ Checa\ si\ esta\ tocando\ a\ un\ objeto\ de\ la\ clase\ Player,\ si\ lo\ esta\ tocando\r\n\ entonces\ llama\ al\ metodo\ leftLives\ de\ la\ clase\ padre.\r\n
+numComments=3

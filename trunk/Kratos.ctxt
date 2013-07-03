@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kratos()
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Kratos\r\n\ \r\n\ Carga\ la\ imagen\ del\ personaje\ Kratos\ y\ despues\ escalarla\ a\ un\ cierto\ tama\u00F1o.\r\n\ Y\ muestra\ la\ primera\ imagen\ del\ gif.\ \r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Kratos\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkIsTouching()
+comment2.text=\r\n\ Determina\ si\ esta\ tocando\ a\ un\ objecto\ de\ la\ clase\ Player,\ si\ lo\ encuentra\ entonces\ le\ resta\ vidas.\r\n
+numComments=3

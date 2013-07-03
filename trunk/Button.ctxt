@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Button()
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Button\r\n\ Inicializa\ pressed\ en\ false,\ que\ es\ si\ esta\ presionado\ un\ boton\ o\ no.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ remove()
+comment2.text=\r\n\ Remueve\ un\ objeto\ de\ la\ clase\ Button\r\n
+comment3.params=isPressed
+comment3.target=void\ setPressed(boolean)
+comment3.text=\r\n\ Cambia\ el\ valor\ de\ pressed.\r\n\ @param\ isPressed\ es\ booleano.\r\n
+comment4.params=
+comment4.target=boolean\ getPressed()
+comment4.text=\r\n\ Determina\ si\ esta\ presionado\ o\ no\ un\ boton.\r\n\ @return\ pressed\ que\ es\ booleano.\r\n
+numComments=5

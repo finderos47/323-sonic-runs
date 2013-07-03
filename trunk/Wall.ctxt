@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=aSize
+comment0.target=Wall(int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Wall\r\n\ @param\ aSize\ recibe\ una\ medida\ para\ el\ objeto\r\n\ Lee\ la\ imagen\ de\ la\ barda\ y\ despues\ la\ escala.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Wall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkIsTouching()
+comment2.text=\r\n\ Checa\ si\ esta\ tocando\ a\ un\ objeto\ de\ la\ clase\ Player,\ si\ esta\ tocando\r\n\ entonces\ manda\ llamar\ al\ metodo\ leftLives\ de\ la\ superclase.\r\n
+numComments=3

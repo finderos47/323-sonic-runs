@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=m\ size\ grades
+comment0.target=Mensaje(java.lang.String,\ int,\ int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Mensaje\r\n\ @param\ m\ es\ el\ mensaje\ a\ poner\ en\ el\ mensaje\r\n\ @param\ size\ es\ la\ medida\ del\ letrero\r\n\ @param\ grades\ es\ los\ grados\ de\ rotacion\ que\ se\ quiere\ para\ el\ cartel.\r\n
+numComments=1
