@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Act\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.params=
+comment1.target=void\ moveEnemy()
+comment1.text=\r\n\ Realiza\ el\ movimiento\ de\ un\ objeto\ de\ la\ clase\ Enemy\ y\ si\ llega\ a\r\n\ la\ orilla\ izquierda\ del\ escenario\ se\ remueve.\r\n
+comment2.params=
+comment2.target=void\ leftLives()
+comment2.text=\r\n\ Resta\ vidas\ a\ un\ objeto\ de\ clase\ Counter,\ que\ es\ el\ que\ lleva\ la\ cuenta\r\n\ de\ cuantas\ vidas\ tiene\ el\ jugador.\r\n\ Y\ despues\ de\ restarle\ vida,\ utiliza\ el\ metodo\ goHome().\r\n
+comment3.params=
+comment3.target=void\ goHome()
+comment3.text=\r\n\ Busca\ a\ un\ objeto\ de\ la\ clase\ Player\ y\ lo\ mueve\ a\ una\r\n\ cierta\ localizacion.\r\n
+comment4.params=aWidth\ aHeight
+comment4.target=void\ setSize(int,\ int)
+comment4.text=\r\n\ Indica\ cual\ es\ la\ medida\ de\ la\ imagen,\ el\ alto\ y\ el\ ancho.\r\n
+comment5.params=
+comment5.target=int\ getSizeW()
+comment5.text=\r\n\ @return\ sizeW\ la\ medida\ del\ ancho\ de\ la\ imagen\r\n
+comment6.params=
+comment6.target=int\ getSizeH()
+comment6.text=\r\n\ @return\ sizeH\ que\ es\ la\ medida\ de\ la\ altura\ de\ la\ imagen\r\n
+numComments=7

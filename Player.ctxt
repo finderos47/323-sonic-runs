@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player()
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Player\:\r\n\ \r\n\ Lee\ las\ imagenes\ necesarias\ para\ los\ movimientos\ derecha,\ izquierda\ y\ fase\ de\ espera.\r\n\ \r\n\ Inicializa\ numImagen\ en\ 0,\ sirve\ para\ cambiar\ de\ imagen\ al\ jugador.\r\n\ \r\n\ utiliza\ el\ metodo\ setForceJump\ para\ inicializar\ la\ fuerza\ de\ salto\ del\ jugador.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkKey()
+comment2.text=\r\n\ Determina\ cual\ tecla\ esta\ presionada\r\n
+numComments=3

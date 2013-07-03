@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=aSize
+comment0.target=Obstacle(int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Obstacle\r\n\ @param\ aSize\ recibe\ una\ medida\ del\ obstaculo\ y\ despues\ lo\ asigna\ a\ size.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Obstacle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment2.text=\r\n\ @return\ size\ que\ es\ la\ medida\ de\ la\ imagen\ de\ la\ clase\ Obstacle.\r\n
+comment3.params=aSize
+comment3.target=void\ setSize(int)
+comment3.text=\r\n\ @param\ aSize\ recibe\ una\ medida\ y\ la\ asiga\ a\ size.\r\n
+comment4.params=
+comment4.target=void\ leftLives()
+comment4.text=\r\n\ Busca\ a\ un\ objeto\ de\ la\ clase\ Counter,\ despues\ le\ suma\ un\ numero\ negativo\ a\ las\ vidas\r\n\ y\ despues\ usa\ el\ metodo\ goHome\r\n
+comment5.params=
+comment5.target=void\ goHome()
+comment5.text=\r\n\ Busca\ a\ un\ objeto\ de\ la\ clase\ Player,\ si\ lo\ encuentra\ entonces\ lo\ manda\ a\ una\ cierta\ localizacion.\r\n
+comment6.params=
+comment6.target=void\ moveObstacle()
+comment6.text=\r\n\ Mueve\ al\ objeto\ de\ la\ clase\ Obstacle\ hacia\ la\ izquierda,\ si\ sale\ del\ escenario\r\n\ entonces\ se\ remueve.\r\n
+numComments=7

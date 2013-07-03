@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Records()
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Records\r\n\ Lee\ una\ imagen\ y\ despues\ la\ escala.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Records\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

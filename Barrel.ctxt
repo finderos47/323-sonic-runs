@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Barrel()
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Barrel\r\n\ Toma\ la\ imagen\ que\ tiene\ y\ enseguida\ la\ escala\ y\ la\ muestra\ en\ pantalla.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Barrel\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkIsTouching()
+comment2.text=\r\n\ Checa\ si\ un\ objecto\ de\ la\ clase\ Player\ toca\ a\ este\ objecto\ de\ la\ clase\ Barrel\r\n\ Si\ lo\ toca\ entonces\ le\ quita\ una\ vida.\r\n
+numComments=3
