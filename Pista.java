@@ -1,9 +1,14 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
-//import java.util.*;
 
 /**
- * Write a description of class Pista here.
+ * En la clase Pista se encuentran los contadores de las vidas, fuerza de salto, distancia, entre otras.
+ * Tambien desde aqui se mandan llamar algunos objetos de las diferentes clases y ponerlos en el mundo
+ * se cargan las imagenes correspondientes al escenario, nivel 1, nivel 2, ayuda, creditos, menu principal.
+ * Tambien se realiza el scroll del mundo tomando la imagen del fondo y volviendola a dibujar.
+ * Tiene algunas banderas que indican si se presiono alguno boton tal como el de ayuda, creditos, jugar o records.
+ * Importe la clase java.util.ArrayList para encontrar los objetos de cierto tipo en el escenario y despues de tenerlos
+ * como listas los convierto a ArrayList.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)
@@ -106,18 +111,13 @@ public class Pista extends World
 
             if (0 >= lives.getValue() || distance.getValue() == 2000)
             {
-                if ( 0 >= lives.getValue() )
-                {
-                    mensaje = new Mensaje("Game Over", 80, 0);
-                }
-                else mensaje = new Mensaje ("You Win!", 80, 0);
                 
-                UserInfo myInfo = UserInfo.getMyInfo();
-                myInfo.setScore(distance.getValue());
-
                 if (UserInfo.isStorageAvailable()) 
                    {
+                       UserInfo myInfo = UserInfo.getMyInfo();
+                       myInfo.setScore(distance.getValue());
                        ArrayList array = (ArrayList)(UserInfo.getTop(10));
+                       
                        if ( !array.isEmpty())
                        {
                            for (int i =0; i < array.size(); i++)
@@ -135,16 +135,15 @@ public class Pista extends World
                         {   
                             Mensaje nada = new Mensaje( "Empty records", 50, 0);
                             addObject(nada, getWidth() /2, getHeight() /2);
-                            myInfo.store();
                         }
                     }
                   
-
-                if (distance.getValue() >= myInfo.getScore()) 
+                if ( 0 >= lives.getValue() )
                 {
-                    myInfo.setScore(distance.getValue());
-                    myInfo.store();
+                    mensaje = new Mensaje("Game Over", 80, 0);
                 }
+                else mensaje = new Mensaje ("You Win!", 80, 0);
+                
 
                 addObject (mensaje, getWidth() /2 , getHeight() / 2);
                 Greenfoot.delay(6);

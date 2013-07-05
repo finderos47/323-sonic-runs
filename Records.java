@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Records here.
+ * La clase Records contiene una GreenfootImage que es la encargada de la imagen del boton records del escenario.
+ * Si se presiono entonces cambia su valor de false a true, con un mensaje a la superclase.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

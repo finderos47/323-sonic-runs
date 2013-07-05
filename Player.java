@@ -2,7 +2,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList; // Para escalar las imagenes del jugador
 
 /**
- * Write a description of class Player here.
+ * La clase Player contiene un arreglo de GreenfootImage para las imagenes del jugador cuando va hacia la derecha.
+ * Una GifImage cuando no esta haciendo nada, es decir que no se presiona ninguna tecla.
+ * Una GifImage cuando esta corriendo hacia la izquierda.
+ * Una GreenfootImage cuando esta cayendo, para que le de un poco mas de realismo al juego.
+ * Una variable privada numImage que indica en que numero de imagen va el jugador y mostrarla en juego.
+ * Una variabe boleean doAnything que le indica si esta haciendo algo o no.
+ * Una variable boolean dirLeft que indica si esta hacia la izquierda o no.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

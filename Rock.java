@@ -1,8 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.ArrayList;
+
 
 /**
- * Write a description of class Roca here.
+ * La clase Rock contiene una GreenfootImage que es la encargada de la imagen del obstaculo rock, heredo metodos
+ * del movimiento del obstaculo y de checar si esta tocando un objecto de la clase Player.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

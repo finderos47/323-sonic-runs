@@ -2,7 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
 
 /**
- * Write a description of class Bonus here.
+ * La clase Bonus contiene una GifImagen que es la encargada de la imagen del bonus de fuerza de salto,
+ * desde esta clase se le manda un mensaje al Contador del mundo "force Jump" que aumente en una unidad.
+ * 
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)
@@ -10,9 +12,6 @@ import java.util.ArrayList;
 public class Bonus extends Actor
 {
     private GifImage image;
-    private int numImagen;
-    private boolean band= false;
-
     /**
      * Constructor de la clase Bonus
      * Carga un gif para despues escalarlo y mostrarlo en pantalla.

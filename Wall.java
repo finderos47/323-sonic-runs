@@ -1,7 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Wall here.
+ * La clase Wall contiene una GreenfootImage que es la encargada de la imagen del muro de tipo Obstaculo.
+ * En el actua utiliza los metodos de la superclase Obstacle como el movimiento, y el checar si esta tocando
+ * este obstaculo el jugador.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

@@ -2,7 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
 
 /**
- * Write a description of class Kratos here.
+ * La clase Adel contiene una GifImage que es la encargada de la imagen del enemigo Adel, que es el enemigo que 
+ * aparece en el segundo nivel del juego.
+ * Heredo metodos para moverse y checar si esta tocando al jugador.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

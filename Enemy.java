@@ -1,8 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.ArrayList;
+
 
 /**
- * Write a description of class Enemy here.
+ * La clase Enemy contiene una medida en ancho y alto, por si los obstaculos son de forma vertical, u horizontal, si 
+ * son en forma esferica entonces su radio seria medida en ancho (sizeW/2).
+ * Contienen metodos para restar vida al jugador en caso de que este toque a un enemigo, un metodo para mover el 
+ * enemigo.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

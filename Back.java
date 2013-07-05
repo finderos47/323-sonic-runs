@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Back here.
+ * La clase Back contiene una GreenfootImage que es la encargada de la imagen del boton back en el escenario.
+ * Si se presiona cambia su valor de false a true.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

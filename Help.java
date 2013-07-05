@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Help here.
+ * La clase Help contiene una variable GreenfootImage que es la encargada de la imagen del boton help
+ * del escenario, si se presiona cambia su valor pressed = flase a true.
  * 
  * @author (your name) 
  * @version (a version number or a date)

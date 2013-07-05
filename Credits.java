@@ -1,10 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Credits here.
+ * La clase Credits contiene una GreenfootImage que es la encargada de la imagen del boton creditos del escenario
+ * En el actua pregunta si se esta presionando este boton, si es verdadero entonces manda un mensaje a la superclase
+ * de que cambie su valor de false a true.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Angel Isai Zavala Cano) 
+ * @version (03 07 2013)
  */
 public class Credits extends Button
 {

@@ -1,10 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Lives here.
+ * La clase Lives contiene una GreenfootImage que es la encargada del item de lives que aparece en el escenario.
+ * Se escala a un tamaño predefinido, tiene su propio metodo de movimiento y de checar si esta tocando a un objeto de la 
+ * clase Player, si es asi entonces le aumenta en una unidad la vida al Counter lives del escenario.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Angel Isai Zavala Cano) 
+ * @version (03 07 2013)
  */
 public class Lives extends Actor
 {
