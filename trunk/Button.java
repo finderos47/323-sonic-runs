@@ -1,7 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Button here.
+ * La clase Button contiene un booleano que representa si esta presionado el boton o no, esta variable
+ * la heredan otros botones.
+ * Contiene un metodo para cambiar y obtener esa variable.
+ * Se inicializa pressed en false.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

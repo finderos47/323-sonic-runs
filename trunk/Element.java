@@ -1,7 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Element here.
+ * La clase Element contiene variables como forceJump que indican la fuerza de salto, y sus respectivos metodos
+ * para acceder y modificar su valor.
+ * Una variable vSpeed que es la de velocidad vertical, esta es ocupada para saltar.
+ * Una variable ground que es el suelo del jugador.
+ * Una variable aceleracion que indica la velocidad a que caera el jugador.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

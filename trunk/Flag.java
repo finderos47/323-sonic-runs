@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Flag here.
+ * La clase Flag contiene una GreenfootImage que es la encargada de la imagen de la bandera,
+ * y tambien un objeto de la clase Mensaje que es la encargada de mostrar algun mensaje.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Angel Isai Zavala Cano) 
+ * @version (03 07 2013)
  */
 public class Flag extends Actor
 {
@@ -55,7 +56,6 @@ public class Flag extends Actor
         {
             getWorld().removeObject(mensaje);
             getWorld().removeObject(this);
-
         }
     }
 }

@@ -2,10 +2,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.awt.Color;
 
 /**
- * Write a description of class Mensaje here.
+ * La clase Mensaje contiene un constructor que recibe una cadena que sera el mensaje a mostrar, un entero
+ * que es la medida del letrero, y los grados a rotar el mensaje.
+ * Tiene un fondo transparente. Por defecto el color del mensaje es Blanco.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Angel Isai Zavala Cano) 
+ * @version (03 07 2013)
  */
 public class Mensaje extends Actor
 {

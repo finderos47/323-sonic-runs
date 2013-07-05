@@ -1,10 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Barrel here.
+ * La clase Barrel contiene no contiene variables, depende de su imagen de fondo que fue seleccionada con setImage cuando se 
+ * creo esta clase, se toma la imagen y se escala a un tamaño.
+ * Heredo los metodos del movimiento del obstaculo y de checar que si toca a un objeto de la clase Player.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Angel Isai Zavala Cano) 
+ * @version (03 07 2013)
  */
 public class Barrel extends Obstacle
 {

@@ -2,7 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
 
 /**
- * Write a description of class Kratos here.
+ * La clase Kratos contiene una GifImage que es la encargada de la imagen del enemigo kratos,
+ * que aparece en el primer nivel del juego.
+ * Heredo metodos del movimiento y checar si esta tocando al jugador.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

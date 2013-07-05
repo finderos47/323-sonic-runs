@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Barrier here.
+ * La clase Barrier contiene en el actua metodos de la superclase como el moverse y checar si un jugador toca el 
+ * obstaculo.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)

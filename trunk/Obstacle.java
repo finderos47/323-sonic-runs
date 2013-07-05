@@ -1,8 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.ArrayList;
+
 
 /**
- * Write a description of class Obstacle here.
+ * La clase Obstacle contiene un constructor con una medida para los obstaculos.
+ * Contiene diferentes metodos para acceder a las medidas del obstaculo, restar vidas al jugador si ha tocado 
+ * algun obstaculo, y mandarle un mensaje al jugador goHome que le hace que se mueva hacia otro lado ya que ha tocado 
+ * un obstaculo.
  * 
  * @author (Angel Isai Zavala Cano) 
  * @version (03 07 2013)
